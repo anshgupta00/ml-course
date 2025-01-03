@@ -1,0 +1,11 @@
+prefix=D:/Desktop/sample_project_1/env/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+URL: https://www.postgresql.org/
+Version: 17.2
+Libs: -L${libdir} -lpgtypes
+Libs.private: -lws2_32 -L${libdir} -lpgport D:/Desktop/sample_project_1/env/Library/lib/libcrypto.lib D:/Desktop/sample_project_1/env/Library/lib/libssl.lib -lpgcommon D:/Desktop/sample_project_1/env/Library/lib/z.lib D:/Desktop/sample_project_1/env/Library/lib/zstd.lib D:/Desktop/sample_project_1/env/Library/lib/libcrypto.lib D:/Desktop/sample_project_1/env/Library/lib/libssl.lib D:/Desktop/sample_project_1/env/Library/lib/z.lib D:/Desktop/sample_project_1/env/Library/lib/zstd.lib D:/Desktop/sample_project_1/env/Library/lib/z.lib D:/Desktop/sample_project_1/env/Library/lib/zstd.lib
+Cflags: -I${includedir}
