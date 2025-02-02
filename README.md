@@ -1,0 +1,3 @@
+Through this journey of machine learning,I got chance to learn and practice about ML and differnt python's libraries  like numpy,pandas,matplotlib,seaborn and so on. Also chance to learn about surpervised and unsupervised ML. I also build few projects on these. Main project was on deepleanrning , build Dog Breed Identificaton where got to exlore alot about ML.
+I want to show my gratitude to Andre for this valuable course and jourey.
+# still learning and upgrading...
